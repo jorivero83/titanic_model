@@ -53,4 +53,4 @@ print('-' * 80)
 gbm_model.fit(X_train, y_train)
 
 # ================================= Saving the model ======================================
-pickle.dump(gbm_model, open('models/gbm_model.pickle', 'wb'))
+pickle.dump(gbm_model, open('models/gbm_model_submited_1.pickle', 'wb'))
